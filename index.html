@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Joke Generator</title>
+
+    <style>
+        body{
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-top: 50px;
+            background-color:darkgrey;  
+        }
+        #getSetup {
+            color: red;
+            font-weight: bold;
+        }
+
+        #getPunchline {
+            color: green;
+            font-weight: bold;
+        }
+        button{
+            font-size: large;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Setup: <span id="getSetup"></span></h1>
+    <h1>Punchline: <span id="getPunchline"></span></h1>
+
+    <button onclick="getRandomJoke()">New Joke</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
